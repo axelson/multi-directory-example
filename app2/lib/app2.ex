@@ -13,6 +13,7 @@ defmodule App2 do
 
   """
   def hello do
+    App1.hello()
     :world
   end
 end
